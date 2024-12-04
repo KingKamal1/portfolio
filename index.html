@@ -3,11 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <meta name="description" content="Kamal Sayed - Full Stack Developer Portfolio showcasing creative web development projects and solutions">
+    <meta name="keywords" content="full stack developer, web development, portfolio, frontend, backend, JavaScript, HTML, CSS">
+    <meta name="author" content="Kamal Sayed">
+    <title>Kamal Sayed | Full Stack Developer Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
 </head>
 <body class="light-mode">
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
     <nav>
         <div class="container">
             <div class="nav-content">
@@ -32,6 +39,20 @@
         </div>
     </header>
 
+    <section id="about" class="section">
+        <div class="container">
+            <h2 data-aos="fade-up">About Me</h2>
+            <div class="about-content" data-aos="fade-up" data-aos-delay="100">
+                <div class="about-text">
+                    <p>I am a passionate Full Stack Developer with a keen eye for creating engaging and functional web applications. With a strong foundation in both frontend and backend technologies, I strive to build seamless digital experiences that solve real-world problems.</p>
+                    <div class="about-buttons">
+                        <a href="assets/resume.pdf" class="btn" download><i class="fas fa-download"></i> Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="projects" class="section">
         <div class="container">
             <h2>My Projects</h2>
@@ -49,17 +70,179 @@
         </div>
     </section>
 
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 data-aos="fade-up">Technical Skills</h2>
+            <div class="skills-grid" data-aos="fade-up" data-aos-delay="100">
+                <div class="skill-category">
+                    <h3><i class="fas fa-laptop-code"></i> Front End Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span><i class="fab fa-react"></i> React.js</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span><i class="fab fa-html5"></i> HTML5</span>
+                                <span class="skill-level">Expert</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span><i class="fab fa-css3-alt"></i> CSS3</span>
+                                <span class="skill-level">Expert</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span><i class="fab fa-sass"></i> SASS</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span><i class="fab fa-js"></i> JavaScript</span>
+                                <span class="skill-level">Expert</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-server"></i> Back End Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span><i class="fab fa-php"></i> PHP</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span><i class="fas fa-database"></i> MySQL</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span><i class="fas fa-code"></i> C++</span>
+                                <span class="skill-level">Intermediate</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-paint-brush"></i> UI Frameworks & Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span><i class="fab fa-bootstrap"></i> Bootstrap</span>
+                                <span class="skill-level">Expert</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span><i class="fab fa-tailwind"></i> Tailwind CSS</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span><i class="fab fa-font-awesome"></i> Font Awesome</span>
+                                <span class="skill-level">Expert</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-code-branch"></i> Version Control & Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span><i class="fab fa-git-alt"></i> Git</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span><i class="fab fa-github"></i> GitHub</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="contact" class="section">
         <div class="container">
-            <h2>Contact Me</h2>
-            <div class="contact-info">
-                <div class="contact-item">
-                    <i class="fas fa-envelope"></i>
-                    <a href="mailto:kk1412ec4869@gmail.com">kk1412ec4869@gmail.com</a>
-                </div>
-                <div class="contact-item">
-                    <i class="fas fa-phone"></i>
-                    <a href="tel:01003620544">01003620544</a>
+            <h2 data-aos="fade-up">Contact Me</h2>
+            <div class="contact-content">
+                <form id="contact-form" class="contact-form" data-aos="fade-up" data-aos-delay="100">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" required placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+                <div class="contact-info" data-aos="fade-up" data-aos-delay="200">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:kk1412ec4869@gmail.com">kk1412ec4869@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <a href="tel:01003620544">01003620544</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -114,6 +297,11 @@
         </div>
     </footer>
 
+    <button id="scroll-top" class="scroll-top-btn" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
