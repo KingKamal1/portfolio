@@ -28,6 +28,3 @@ A professional portfolio website showcasing my projects, skills, and experience.
 - Email: kk1412ec4869@gmail.com
 - LinkedIn: [Kamal Sayed](https://www.linkedin.com/in/kamal-sayed-82ba2b335/)
 - GitHub: [KingKamal1](https://github.com/KingKamal1)
-
-## License
-MIT License
