@@ -5,7 +5,7 @@
             "title": "Portfolio Website",
             "description": "A responsive and modern personal portfolio website showcasing my skills and projects.",
             "demoUrl": "assets/websites/template_1/index.html",
-            "githubUrl": "assets/websites/template1",
+            "githubUrl": "https://github.com/KingKamal1/portfolio/tree/master/assets/websites/template_1",
             "technologies": ["HTML", "CSS", "JS", "Responsive Design"],
             "category": ["Frontend"]
         },
@@ -14,7 +14,7 @@
             "title": "E-Commerce Dashboard",
             "description": "A comprehensive admin panel for managing online store inventory, sales, and user analytics.",
             "demoUrl": "assets/websites/template_2/index.html",
-            "githubUrl": "assets/websites/template2",
+            "githubUrl": "https://github.com/KingKamal1/portfolio/tree/master/assets/websites/template_2",
             "technologies": ["HTML", "CSS", "JS"],
             "category": ["Frontend"]
         },
@@ -23,7 +23,7 @@
             "title": "Weather Forecast App",
             "description": "Real-time weather application with detailed forecasts and interactive map integration.",
             "demoUrl": "assets/websites/template_3/index.html",
-            "githubUrl": "assets/websites/template3",
+            "githubUrl": "https://github.com/KingKamal1/portfolio/tree/master/assets/websites/template_3",
             "technologies": ["HTML", "CSS", "JS","Responsive Design"],
             "category": ["Frontend"]
         },
@@ -32,7 +32,7 @@
             "title": "Task Management System",
             "description": "Collaborative task tracking and project management application with user authentication.",
             "demoUrl": "assets/websites/template_4/index.html",
-            "githubUrl": "assets/websites/template4",
+            "githubUrl": "https://github.com/KingKamal1/portfolio/tree/master/assets/websites/template_4",
             "technologies": ["HTML", "CSS", "JavaScript", "Responsive Design"],
             "category": ["Frontend"]
         }
