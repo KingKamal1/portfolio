@@ -1,0 +1,146 @@
+/* Reset some default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f7f9fb;
+  color: #222;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+header {
+  background: #34383c;
+  color: #fff;
+  padding: 2rem 0 1rem 0;
+  text-align: center;
+}
+header h1 {
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+header .title {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  color: #b0e0e6;
+}
+header .contact {
+  list-style: none;
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.2rem;
+  font-size: 1rem;
+}
+header .contact a {
+  color: #b0e0e6;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+header .contact a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+main {
+  padding: 2rem 0;
+}
+section {
+  margin-bottom: 2.5rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(52,56,60,0.06);
+  padding: 1.5rem 2rem;
+}
+section h2 {
+  color: #34383c;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  border-left: 4px solid #b0e0e6;
+  padding-left: 0.7rem;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem 1.5rem;
+  list-style: none;
+}
+.skills-list li {
+  background: #eaf6fa;
+  color: #34383c;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-size: 1rem;
+}
+
+.links ul, .languages ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.links a {
+  color: #0077b6;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.links a:hover {
+  color: #023e8a;
+  text-decoration: underline;
+}
+
+.job, .school {
+  margin-bottom: 1.5rem;
+}
+.job h3, .school h3 {
+  font-size: 1.1rem;
+  color: #0077b6;
+  margin-bottom: 0.2rem;
+}
+.company, .dates {
+  font-size: 0.98rem;
+  color: #555;
+}
+.job ul, .school ul {
+  margin-top: 0.5rem;
+  margin-left: 1.2rem;
+  list-style: disc;
+}
+
+footer {
+  background: #34383c;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.98rem;
+}
+
+@media (max-width: 700px) {
+  .container, section {
+    padding: 1rem 0.7rem;
+  }
+  section {
+    padding: 1rem 1rem;
+  }
+  header h1 {
+    font-size: 2rem;
+  }
+  section h2 {
+    font-size: 1.1rem;
+    padding-left: 0.4rem;
+  }
+  .skills-list {
+    gap: 0.5rem 0.7rem;
+  }
+} 
